@@ -14,8 +14,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+            initial();
 
-        getSupportActionBar().hide();
+        }
+
+        private void initial() {
+
+        }
+
+        public void pilihBangunRuang(View view) {
+            Intent intent = new Intent(MainActivity.this, PilihBangunRuangActivity.class);
+            startActivity(intent);
+        }
+         public void about(View view) {
+        Intent intent = new Intent(MainActivity.this, activity_about.class);
+        startActivity(intent);
+        }
+}
+
+      /* getSupportActionBar().hide();
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -24,6 +41,4 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
-        }, 5000L); //5000 L = 5 detik
-    }
-}
+        }, 5000L); //5000 L = 5 detik */

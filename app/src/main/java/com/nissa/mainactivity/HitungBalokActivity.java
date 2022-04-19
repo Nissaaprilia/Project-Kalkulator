@@ -1,4 +1,4 @@
-package com.nissa.mainactivity;
+/* package com.nissa.mainactivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class HitungBalokActivity extends AppCompatActivity {
 
-    EditText edtPanjang, edtLebar, edtTinggi;
+   EditText edtPanjang, edtLebar, edtTinggi;
     TextView txtHasil;
     Double panjang, lebar, tinggi;
 
@@ -61,7 +61,7 @@ public class HitungBalokActivity extends AppCompatActivity {
             lebar = Double.parseDouble(edtLebar.getText().toString());
             tinggi = Double.parseDouble(edtTinggi.getText().toString());
             Balok balok = new Balok(panjang, lebar, tinggi);
-            txtHasil.setText(String.valueOf("Hasil :\nKeliling = " + balok.hitung_keliling()));
+            txtHasil.setText(String.valueOf("Hasil :\nKeliling = " + Balok.hitung_keliling()));
 
 
             //panjang = Double.parseDouble(edtPanjang.getText().toString());
@@ -83,7 +83,7 @@ public class HitungBalokActivity extends AppCompatActivity {
             panjang = Double.parseDouble(edtPanjang.getText().toString());
             lebar = Double.parseDouble(edtLebar.getText().toString());
             tinggi = Double.parseDouble(edtTinggi.getText().toString());
-            Balok balok = new Balok(panjang, lebar, tinggi);
+            balok balok = new balok(panjang, lebar, tinggi);
             txtHasil.setText(String.valueOf("Hasil :\nVolume = " + balok.hitung_volume()));
 
 
@@ -100,7 +100,6 @@ public class HitungBalokActivity extends AppCompatActivity {
             toast.show();
         }
     }
-}    
-    
-        
-
+}
+}
+*/
