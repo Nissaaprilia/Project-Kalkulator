@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class HitungBalokActivity extends AppCompatActivity {
 
-   EditText edtPanjang, edtLebar, edtTinggi;
+    EditText edtPanjang, edtLebar, edtTinggi;
     TextView txtHasil;
     Double panjang, lebar, tinggi;
 
@@ -102,4 +102,5 @@ public class HitungBalokActivity extends AppCompatActivity {
     }
 }
 }
+
 */

@@ -11,13 +11,13 @@
         android:theme="@style/Theme.MainActivity">
         <activity
             android:name=".splashscreen"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".PilihBangunRuangActivity"
             android:exported="false" />
         <activity
             android:name=".PilihBangunDatarActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".HitungTrapesiumActivity"
             android:exported="false" />
