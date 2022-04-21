@@ -14,7 +14,8 @@ public class HitungBalokActivity extends AppCompatActivity {
     EditText edtPanjang, edtLebar, edtTinggi;
     TextView txtHasil;
     Double panjang, lebar, tinggi;
-
+*/
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,7 @@ public class HitungBalokActivity extends AppCompatActivity {
             panjang = Double.parseDouble(edtPanjang.getText().toString());
             lebar = Double.parseDouble(edtLebar.getText().toString());
             tinggi = Double.parseDouble(edtTinggi.getText().toString());
-            Balok = new balok(panjang, lebar, tinggi);
+            Balok = new Balok(panjang, lebar, tinggi);
             txtHasil.setText(String.valueOf("Hasil :\nLuas = " + balok.hitung_balok()));
 
             //panjang = Double.parseDouble(edtPanjang.getText().toString());

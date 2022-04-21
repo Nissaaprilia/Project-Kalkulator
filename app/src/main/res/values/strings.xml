@@ -53,6 +53,7 @@
         <string name="tabung">Tabung</string>
         <string name="kubus">Kubus</string>
         <string name="luasKerucut">Kerucut</string>
+
         <string name="default_text">Default Text</string>
         <string name="polymorphism">Polymorphism</string>
         <string name="garis_lukis">Garis Lukis</string>
@@ -69,5 +70,6 @@
         <string name="luas_limas">Luas Limas :</string>
         <string name="limas_segi_empat">Limas Segi Empat</string>
         <string name="hitung_luas_limas">Hitung Luas Limas</string>
+    <string name="pilih">Pilih</string>
 
 </resources>

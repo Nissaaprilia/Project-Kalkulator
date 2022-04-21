@@ -27,16 +27,18 @@ public class PilihBangunRuangActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-   /* public void balok(View view) {
+    /* public void Balok(View view) {
         Intent intent = new Intent(PilihBangunRuangActivity.this, HitungBalokActivity.class);
         startActivity(intent);
-    }*/
+    }
 
-    public void Bola(View view) {
+   /* public void Bola(View view) {
         Intent intent = new Intent(PilihBangunRuangActivity.this, HitungBolaActivity.class);
         startActivity(intent);
     }
 
+
+    */
     public void kubus(View view) {
         Intent intent = new Intent(PilihBangunRuangActivity.this, HitungKubusActivity.class);
         startActivity(intent);

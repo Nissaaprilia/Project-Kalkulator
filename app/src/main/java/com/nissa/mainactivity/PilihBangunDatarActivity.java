@@ -43,11 +43,6 @@ public class PilihBangunDatarActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void belahKetupat(View view) {
-        Intent intent = new Intent(PilihBangunDatarActivity.this, HitungBelahKetupatActivity.class);
-        startActivity(intent);
-    }
-
     public void jajarGenjang(View view) {
         Intent intent = new Intent(PilihBangunDatarActivity.this, HitungJajarGenjangActivity.class);
         startActivity(intent);
